@@ -1,0 +1,41 @@
+{
+    "name": "@waqasibrahim/webext-locale-translator",
+    "version": "1.0.0",
+    "description": "Translate Chrome extension and WebExtension locale files using Google Translate API",
+    "main": "dist/index.js",
+    "files": ["dist"],
+    "bin": {
+        "webext-translate": "dist/index.js"
+    },
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc-watch"
+    },
+    "keywords": [
+        "chrome extension locale",
+        "webextension locale",
+        "chrome locale translate",
+        "webextension locale translate"
+    ],
+    "author": "Waqas Ibrahim <waqas.abrahim@gmail.com> (https://waqasibrahim.com)",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/cli-progress": "^3.8.0",
+        "@types/commander": "^2.12.2",
+        "@types/node": "^14.10.2",
+        "@typescript-eslint/eslint-plugin": "^4.1.0",
+        "@typescript-eslint/parser": "^4.1.0",
+        "eslint": "^7.9.0",
+        "eslint-config-airbnb-typescript": "^10.0.0",
+        "eslint-plugin-import": "^2.22.0",
+        "tsc-watch": "^4.2.9",
+        "typescript": "^4.0.2"
+    },
+    "dependencies": {
+        "chalk": "^4.1.0",
+        "cli-progress": "^3.8.2",
+        "commander": "^6.1.0",
+        "google-translate-open-api": "^1.3.5",
+        "html-entities": "^1.3.1"
+    }
+}
