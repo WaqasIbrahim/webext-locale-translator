@@ -80,10 +80,11 @@ export default class Translator {
                 data = (await translate(this.messages[i], {
                     to,
                     from: this.sourceLanguage,
+                    client: 'dict-chrome-ex',
                 })).data;
             } catch (e) {
                 bar.stop();
-                log(chalk.red(e.message));
+                log(chalk.red((e as Error).message));
                 process.exit(1);
             }
 
