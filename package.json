@@ -1,6 +1,6 @@
 {
     "name": "@waqasibrahim/webext-locale-translator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Translate Chrome extension and WebExtension locale files using Google Translate API",
     "main": "dist/index.js",
     "files": [
