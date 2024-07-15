@@ -29,7 +29,7 @@ Options:
 
 
 Let's say we have this source locale file.
-```json
+```jsonc
 // messages.json
 {
     "extName": {
